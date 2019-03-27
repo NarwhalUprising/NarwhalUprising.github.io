@@ -1,23 +1,30 @@
 
 body {
-    background: Linen;
+    background: LavenderBlush;
 
 }
+  
+  
 
   h2 {
     font-family: 'fantasy', chalkduster;
     font-weight: 80;
     padding: 5 10px;
-    color: Purple;
+    color: #330033;
     background: DarkGrey;
+    text-align: center;
+    
+  
   }
 
   h3 {
     font-family: 'sans-serif', Gill Sans;
     font-weight: 60;
     padding: 2 5px;
-    color: DarkOliveGreen;
+    color: #006666;
     background: Silver;
+     padding-right: 3px;
+    padding-left: 3px;
   }
 
   h4 {
@@ -31,4 +38,3 @@ body {
     font-family: 'sans-serif', Trebuchet MS;
     font-weight: 60;
   }
-
