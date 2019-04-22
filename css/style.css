@@ -38,6 +38,7 @@ body {
   p {
     font-family: 'sans-serif', Trebuchet MS;
     font-weight: 60;
+    text-align: left;
   }
 
 .item1 { grid-area: header; }
@@ -61,5 +62,5 @@ body {
   background-color:LightGrey;
   text-align: center;
   padding: 20px 15px;
-  font-size: 30px;
+  font-size: 15px;
 }
