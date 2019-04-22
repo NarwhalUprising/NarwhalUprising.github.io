@@ -54,7 +54,7 @@ body {
   grid-template-areas:
     'header header header header'
     'left left right right'
-    'footer footer misc misc';
+    'footer misc misc misc';
   grid-gap: 30px;
   background-color: Silver;
   padding: 10px;
