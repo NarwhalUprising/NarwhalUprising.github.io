@@ -39,8 +39,22 @@ body {
     font-weight: 60;
   }
 
-.grid {
+.item1 { grid-area: header; }
+.item2 { grid-area: left; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
     display: grid;
-    border: 2px LightGrey solid;
-  grid-template: 1fr 1fr / 1fr 1fr;
-}
+    grid-template-areas: 'header header header header' 'left left' 'right right' 'footer footer footer footer';
+    grid-gap: 10px;
+    background-color: Silver;
+    padding: 10px;
+  }
+
+.grid-container > div {
+  background-color: LightGrey;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  }
