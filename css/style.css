@@ -44,17 +44,21 @@ body {
 .item3 { grid-area: right; }
 .item4 { grid-area: footer; }
 
+
 .grid-container {
-    display: grid;
-    grid-template-areas: 'header header header header' 'left left' 'right right' 'footer footer footer footer';
-    grid-gap: 10px;
-    background-color: Silver;
-    padding: 10px;
-  }
+  display: grid;
+  grid-template-areas:
+    'header header header header'
+    'left left right right'
+    'footer footer footer footer';
+  grid-gap: 10px;
+  background-color: Silver;
+  padding: 10px;
+}
 
 .grid-container > div {
-  background-color: LightGrey;
+  background-color:LightGrey;
   text-align: center;
   padding: 20px 0;
-  font-size: 20px;
-  }
+  font-size: 30px;
+}
