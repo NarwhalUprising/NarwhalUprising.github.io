@@ -23,7 +23,7 @@ body {
     padding: 2 5px;
     color: #006666;
     background: Silver;
-   
+    text-align:centered;
     padding-right: 3px;
     padding-left: 3px;
   }
@@ -60,7 +60,7 @@ body {
 
 .grid-container > div {
   background-color:LightGrey;
-  text-align: center;
+ 
   padding: 20px 15px;
   font-size: 15px;
 }
