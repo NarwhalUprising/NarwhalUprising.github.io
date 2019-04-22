@@ -1,10 +1,12 @@
 
 body {
-    background: LavenderBlush;
+    background: #B6E1D3;
 
 }
   
-  
+  title {
+      text-align: centered;
+  }
 
   h2 {
     font-family: 'fantasy', chalkduster;
