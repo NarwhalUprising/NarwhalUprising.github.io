@@ -23,7 +23,8 @@ body {
     padding: 2 5px;
     color: #006666;
     background: Silver;
-     padding-right: 3px;
+    text-align: center;
+    padding-right: 3px;
     padding-left: 3px;
   }
 
@@ -51,7 +52,7 @@ body {
     'header header header header'
     'left left right right'
     'footer footer footer footer';
-  grid-gap: 10px;
+  grid-gap: 30px;
   background-color: Silver;
   padding: 10px;
 }
@@ -59,6 +60,6 @@ body {
 .grid-container > div {
   background-color:LightGrey;
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 15px;
   font-size: 30px;
 }
