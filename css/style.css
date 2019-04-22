@@ -38,3 +38,9 @@ body {
     font-family: 'sans-serif', Trebuchet MS;
     font-weight: 60;
   }
+
+.grid {
+    display: grid;
+    border: 2px LightGrey solid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+}
