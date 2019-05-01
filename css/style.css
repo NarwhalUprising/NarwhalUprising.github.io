@@ -50,7 +50,7 @@ body {
 .item5 { grid-area: misc; }
 .item6 { grid-area: bottomleft;}
 .item7 { grid-area: bottomcenter;}
-.item8 { grid-area: bottomleft;}
+.item8 { grid-area: bottomright;}
 
 .grid-container {
   display: grid;
