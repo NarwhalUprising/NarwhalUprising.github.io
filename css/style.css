@@ -58,7 +58,7 @@ body {
     'header header header header'
     'left left right right'
     'footer footer misc misc'
-    'bottomleft  bottomcenter bottomcenter bottomright';
+    'bottomleft bottomcenter bottomcenter bottomright';
   grid-gap: 30px;
   background-color: Silver;
   padding: 10px;
