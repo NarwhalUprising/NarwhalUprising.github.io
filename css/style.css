@@ -48,13 +48,17 @@ body {
 .item3 { grid-area: right; }
 .item4 { grid-area: footer; }
 .item5 { grid-area: misc; }
+.item6 { grid-area: bottomleft;}
+.item7 { grid-area: bottomcenter;}
+.item8 { grid-area: bottomleft;}
 
 .grid-container {
   display: grid;
   grid-template-areas:
     'header header header header'
     'left left right right'
-    'footer footer misc misc';
+    'footer footer misc misc'
+    'bottomleft bottomcenter bottomcenter bottomright';
   grid-gap: 30px;
   background-color: Silver;
   padding: 10px;
