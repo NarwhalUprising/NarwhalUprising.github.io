@@ -41,7 +41,7 @@
      
     </p>
        <svg width="400" height="100">
-  <rect width="4" height="2" style="fill:Silver;stroke-width:1;stroke:Purple" />
+  <rect width="40" height="20" style="fill:Silver;stroke-width:1;stroke:Purple" />
 </svg>
     <h3>Research</h3>
         <ul>
@@ -105,7 +105,18 @@
   <source src="bensound-memories.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
        </audio><p>Music: https://www.bensound.com</p>
-       <p>The Traveling Salesman problem is one of the most well-known graph theory problems.
+       
+       
+       <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "15px Arial";
+ctx.fillText("The Traveling Salesman problem is one of the most well-known graph theory problems.",10,50);
+</script>
+      
        <iframe width="560" height="315" src="https://www.youtube.com/embed/SC5CX8drAtU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
  
